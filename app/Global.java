@@ -74,7 +74,7 @@ public class Global extends GlobalSettings {
      */
     @Configuration
     @EnableJpaRepositories("repository")
-    @ComponentScan(basePackages = {"controllers", "models", "services.service", "services.serviceimpl"})
+    @ComponentScan(basePackages = {"rest.controllers", "models", "services"})
     @EnableTransactionManagement
     public static class SpringDataJpaConfiguration {
 

@@ -1,4 +1,4 @@
-package controllers.rest;
+package rest.controllers;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,13 +7,13 @@ import javax.annotation.Resource;
 import javax.inject.Named;
 import javax.inject.Singleton;
 
-import controllers.base.BaseController;
-import controllers.requestdto.UsersRequestDto;
-import controllers.responsedto.UsersResponseDto;
+import rest.base.BaseController;
+import rest.requestdto.UsersRequestDto;
+import rest.responsedto.UsersResponseDto;
 import models.Person;
 import play.mvc.BodyParser;
 import play.mvc.Result;
-import services.serviceimpl.ServicesFactory;
+import services.ServicesFactory;
 
 /**
  * The main set of web services.
